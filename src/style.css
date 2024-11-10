@@ -1,0 +1,393 @@
+/* updates background color */
+body {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* added background color for the header section */
+header {
+    height: 150px;
+    background-color: #F95573;
+}
+
+/* added styling for the header text */
+h1 {
+    display: none;
+}
+
+/* increases the nav button by height of 150*/
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+/* increases the image by height of 100*/
+img {
+    height: 100px;
+}
+
+/* added footer and footer styling */
+footer {
+    padding-left: .5rem;
+    margin-top: auto;
+    margin-left: .5rem;
+    color: #F95573;
+    font-family: 'Roboto', sans-serif;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+/* hides small drop down when screen is big  */
+ul.smallHide {
+    display: none;
+}
+
+/* makes text bolded in nav bar when highlighed */
+nav .active {
+    font-weight: bold;
+}
+
+/* gives button dark border */
+.custom-button {
+    border-color: black;
+}
+
+/* gives button darker blue background when hovered */
+.custom-button:hover {
+    background-color: blue; 
+    border-color: black;
+}
+
+/* Custom CSS to extend dropdown menu */
+.navbar-collapse {
+    background-color: rgb(249, 85, 115);
+    margin-bottom: 1.5rem;
+}
+
+/* shows drop down when screen is small */
+.navbar-collapse.show .dropdown-menu {
+    display: block;
+}
+
+/* shows the drop down menu/toggle button when screen is small */
+.nav-link.dropdown-toggle{
+    display: block;
+}
+
+/* hides drop down for big screens*/
+.navbar-collapse.show .dropdown-menu {
+    display: none;
+}
+
+/* colors nav bar drop down items */
+.navbar-collapse .dropdown-item {
+    color: #212529;
+}
+
+/* Custom CSS for menu icon */
+.menu-icon {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+/* hides header when screen is small */
+/* centers the text box for the search vehicle name*/
+.textBoxCenter {
+    display: flex;
+    justify-content: center;
+}
+
+/* centeres the cards 4 across per column */
+.containerHoldCardsColumn {
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 25%; 
+    flex-wrap: wrap;
+    flex-grow: 1;
+    margin: 1em;
+}
+
+/* makes the header a flex box */
+.headerFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+
+/* this moves the nav bar a little to the right */
+.nav-container {
+    margin-left: auto;
+}
+
+/* this moves the nav bar a little to the right */
+.navBarMargin {
+    margin-left: .5rem;
+}
+
+/* this makes the list elements stack and styles them */
+.nav-items li {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .5rem;
+    list-style: none;
+}
+
+/* makes the nav bar a flex box and align the items within it */
+.navbar {
+    display: flex;
+    align-items: center; 
+}
+
+/* makes the pages title centered */
+.pageTitle {
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+/*align text to center */
+.textCenter {
+    text-align: center;
+    display: flex;
+}
+
+/* centers the clear filter button */
+.centerClearFilterButton {
+    text-align: center;
+}
+
+/* method to create the height of the car image.*/
+.increaseCarHeight {
+    height: 200px;
+}
+
+/* changes the color of the economy button to green.*/
+.economyButtonColor {
+    color: white;
+    background-color: #4FEF35;
+}
+
+/*changes the color of the sport button to red */
+.sportButtonColor {
+    color: white;
+    background-color: red;
+}
+
+/* changes the color of the sound clip button*/
+.sportButtonColorSound {
+    color: white;
+    background-color: #BDE3FF;
+}
+
+/* changes the color of the SUV button to purple  */
+.suvButtonColor {
+    color: white;
+    background-color: rgb(66, 66, 241);
+}
+
+/* changes the color of the SUV button to purple  */
+.truckButtonColor {
+    color: white;
+    background-color: rgb(190, 190, 3);
+}
+
+/*increases the text box */
+.textBox {
+    margin: auto;
+    width: 35%;
+    padding: 10px;
+}
+
+/* changes the button color to red for clear filter*/
+.changeButtonColor {
+    background: red;
+    text-align: center;
+    height: 40px;
+}
+
+/* makes the CarQueen title bold and centered */
+.comparison-centeredTitle {
+    font-weight: bold;
+}
+
+/* method to create the height of the car image for just the comparison page.*/
+.comparison-increaseCarHeight {
+    height: 200px;
+    width: 300px;
+}
+
+/* changes the comarpison page car title */
+.comparison-searchCarTitle {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.25rem;
+}
+
+/* makes the search bar on the comparions page a flex box */
+.comparison-searchBar {
+    display: flex;
+}
+
+/* Styles the serach bar for the comparison page */
+.comparison-carSearchBar {
+    margin-bottom: 1rem;
+    border: 1px solid black;
+}
+
+/* changes the search bars length on the comparison page TODO: make media query for this so that when its smaller it takes up the same length as the
+car card */
+.comparison-col {
+    flex: 0 0 25%;
+    max-width: 25%;
+    flex-basis: 25%; 
+}
+
+/* changes the padding/margin around each card so that they aren't flush against
+the border */
+.comparison-cardMargin {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+/* makes the comparison cards verticle when small screen */
+.comparison-cardFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+}
+
+/* makes logo flex box and centered on small*/
+.comparison-vsFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+}
+    
+/* adds margin to the search form on the comparison page */
+.comparison-searchPosition {
+    margin-bottom: .5rem;
+}
+
+/* styles the VS image on the comparison page */
+.comparison-vsImage {
+    height: 400px;
+    width: 400px;
+}
+
+/* creates a reponsive webpage using Flexbox */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* creates the left side of the webpage reponsive using Flexbox */
+.left-section {
+    flex: 1;
+    padding: 40px;
+}
+
+/* creates the right side of the webpage reponsive using Flexbox */
+.right-section {
+    flex: 1;
+    padding: 40px;
+}
+
+/* standardize the header fonts on the right side of the webpage  */
+.header-font {
+    font-size: 1.5rem;
+    font-family: Helvetica, sans-serif;
+}
+
+/* when on a phone screen the hamburger menu will display the links in block form */
+@media (min-width: 598px) {
+
+    /* added styling for the header text when screen is big */
+    h1 {
+        display: block;
+        font-weight: bold;
+        font-family: Helvetica, sans-serif;
+    }
+
+    /* displays word links on big screens */
+    ul.smallHide {
+        display: block;
+    }
+
+    /* hides the nav drop down when screen is big */
+    .nav-link.dropdown-toggle{
+        display: none;
+    }
+
+}
+
+@media (min-width: 1100px){
+    /* makes the comparison cards horizontal for big screens*/
+    .comparison-cardFlex {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center; 
+        flex-direction: row; 
+    }
+
+    /* makes the comparison image horizontal for big screens*/
+    .comparison-vsFlex{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center; 
+        flex-direction: row; 
+    }
+}
+
+/* Style for very large screens  */
+@media (min-width: 1800px) {
+
+    /* makes the search bar bigger on big screens */
+    button.searchButtonSize {
+        margin-left: 1.5rem;
+        font-size: 1.5rem;
+    }
+
+    /* makes list element font size bigger */
+    div.d-lg-flex li {
+        font-size: 1.5rem;
+    }
+
+    /* makes header containing car name bigger */
+    h5.card-title {
+        font-size: 2.25rem;
+    }
+
+    /* makes the car photos bigger on big screens */
+    .comparison-increaseCarHeight {
+        height: 300px;
+        width: 400px;
+    }
+
+    /* makes the comparison image bigger on big screens */
+    .comparison-vsImage {
+        height: 600px;
+        width: 600px;
+    }
+
+    /* changes the comarpison page car title */
+    .comparison-searchCarTitle {
+        font-family: Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 3.25rem;
+    }
+}

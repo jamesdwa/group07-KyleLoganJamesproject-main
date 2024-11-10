@@ -1,0 +1,211 @@
+[
+    {
+        "car_name": "2024 Toyota Prius AWD Sedan",
+        "description": "An affordable economy car meant for the average consumer wanting a fuel efficient vehicle to get them from point A to B.",
+        "type": "Economy",
+        "link": "https://www.toyota.com/prius/",
+        "image": "car_images/2024-toyota-prius.png",
+        "price": 27950,
+        "luxury_scale": 5,
+        "saftey_rating": 4,
+        "MPG": 57
+    },
+
+    {
+        "car_name": "2007 Hyundai Elantra",
+        "description": "The greatest call of all time, not really its really old and not that great. ",
+        "type": "Economy",
+        "link": "https://www.kbb.com/hyundai/elantra/2007/",
+        "image": "car_images/2007_hyundai_elantra_sedan_limited_fq_oem_2_1600.png",
+        "price": 6000,
+        "luxury_scale": 2,
+        "saftey_rating": 4,
+        "MPG": 30
+    },
+
+    {
+        "car_name": "2024 Honda Civic",
+        "description": "An affordable and sporty economy vehicle meant for point A to B with slight excitement while still bringing good gas milage. It also has Bose premium audio if anyone likes jaming out.",
+        "type": "Economy",
+        "link": "https://automobiles.honda.com/civic",
+        "image": "car_images/2024_Honda_Civic.png",
+        "price": 23950,
+        "luxury_scale": 6,
+        "saftey_rating": 4,
+        "MPG": 33
+    },
+
+    {
+        "car_name": "2024 Volkswagen Jetta",
+        "description": "James's dream car! An affordable economy vehicle that offers both practicality with slight German luxury.",
+        "type": "Economy",
+        "link": "https://www.vw.com/en/models/jetta.html",
+        "image": "car_images/2022_volkswagen_jetta.png",
+        "price": 21345,
+        "luxury_scale": 4,
+        "saftey_rating": 3,
+        "MPG": 35
+    },
+
+    {
+        "car_name": "2024 Nissan Versa",
+        "description": "An extremely affordable economy vehicle that is compact for primary city commuters. It also is heavily discounted because of its competition beating the car in other aspects.",
+        "type": "Economy",
+        "link": "https://www.nissanusa.com/vehicles/cars/versa-sedan.html",
+        "image": "car_images/2024-nissan-versa.png",
+        "price": 16680,
+        "luxury_scale": 3,
+        "saftey_rating": 4,
+        "MPG": 30
+    },
+
+    {
+        "car_name": "2024 BMW M3 Competition xDrive",
+        "description": "An extremely fast sports sedan engineered for the track and road generating 503 beautiful German horsepower. ",
+        "type": "Sport",
+        "sound_clip": "https://www.youtube.com/watch?v=O89GPMfQzRw",
+        "link": "https://www.bmwusa.com/vehicles/m-models/m3-sedan/overview.html",
+        "image": "car_images/2021-bmw-m3-competition-04.webp",
+        "price": 91295,
+        "luxury_scale": 10,
+        "saftey_rating": 3,
+        "MPG": 18
+    },
+
+    {
+        "car_name": "2024 Chevy Corvette ZO6 RWD",
+        "description": "Logan's dream car! An extremely fast and sexy sports car engineered for the track creating an eye watering 670 beautiful American Horsepower. ",
+        "type": "Sport",
+        "sound_clip": "https://www.youtube.com/watch?v=F7eXeb_cd7o",
+        "link": "https://www.chevrolet.com/performance/corvette/z06",
+        "image": "car_images/2023-chevy-corvette-z06.png",
+        "price": 110100,
+        "luxury_scale": 10,
+        "saftey_rating": 3,
+        "MPG": 15
+    },
+
+    {
+        "car_name": "2024 Acura TLX Type-S SH-AWD",
+        "description": "An incredible Japanese sports car created for both as a track and daily commuter generating 355HP. Also includes suspension that changes based on the drive mode for a easy daily driver. ",
+        "type": "Sport",
+        "sound_clip": "https://www.youtube.com/watch?v=dFxoJaJTUqM",
+        "link": "https://www.acura.com/cars/tlx/features?tab=type-s",
+        "image": "car_images/2024_acura_tlx_sedan_type-s.png",
+        "price": 58195,
+        "luxury_scale": 8,
+        "saftey_rating": 4,
+        "MPG": 21
+    },
+
+    {
+        "car_name": "2024 Porsche 911 GT3",
+        "description": "An incredibly perfected sports coupe generating 502hp and has been crafted for generations. Every car enthusiastic dream car and what every automotive engineer inspires to work on. ",
+        "type": "Sport",
+        "sound_clip": "https://www.youtube.com/watch?v=AF0rfhk3kO4",
+        "link": "https://www.porsche.com/usa/models/911/911-gt3-models/911-gt3-touring/",
+        "image": "car_images/2023_porsche_911_coupe_gt3.png",
+        "price": 182900,
+        "luxury_scale": 10,
+        "saftey_rating": 2,
+        "MPG": 16
+    },
+
+    {
+        "car_name": "2024 Toyota Highlander AWD",
+        "description": "Kyle's dream car! A great soccer mom vehicle meant to transport you and 6 other passangers from point A to B reliably. It is a great vehicle when it comes to value also. ",
+        "type": "SUV",
+        "link": "https://www.toyota.com/highlander/?srchid=SEM:700000001483645:GOOGLE:71700000085871253:58700007281754421:p65368582864:642339970305&gclsrc=aw.ds&gad_source=1&gclid=EAIaIQobChMIz6jGzYHGhQMVkCCtBh2HNg2OEAAYASAAEgKCGvD_BwE&gclsrc=aw.ds",
+        "image": "car_images/2025_highlander-hybrid.png",
+        "price": 46620,
+        "luxury_scale": 8,
+        "saftey_rating": 5,
+        "MPG": 35
+    },
+
+    {
+        "car_name": "2024 Mercedes GLE-450 4MATIC",
+        "description": "An amazing family SUV that balances both comfort and extreme levels of German luxury that seats 5 passangers. ",
+        "type": "SUV",
+        "link": "https://www.mbusa.com/en/vehicles/class/gle/suv?sd_campaign_type=Search&sd_digadprov=Resolution&sd_campaign=Corporate_Google_Brand_ICE&sd_channel=GOOGLE&sd_adid=ICE_SUV_GLE&sd_digadkeyword=mercedes+gle&gad_source=1&gclid=EAIaIQobChMI-PCY9YLGhQMVqgitBh18QQawEAAYASAAEgL8RvD_BwE&gclsrc=aw.ds",
+        "image": "car_images/mercedes-gle.png",
+        "price": 69500,
+        "luxury_scale": 10,
+        "saftey_rating": 3,
+        "MPG": 24
+    },
+
+    {
+        "car_name": "2024 Lexus RX350 AWD",
+        "description": "A great and luxurious Japanese quality SUV that seats 5 passangers while also being reliable. Also includes hybrid technology to save on fuel with Lexus driving signature (though could be marketing). ",
+        "type": "SUV",
+        "link": "https://www.lexus.com/models/RX",
+        "image": "car_images/2023_lexus_rx-350.png",
+        "price": 50750,
+        "luxury_scale": 7,
+        "saftey_rating": 5,
+        "MPG": 24
+    },
+
+    {
+        "car_name": "2024 Cadillac Escalade",
+        "description": "A true family hauler that can easily carry your 6 other spawns comfortably and in luxury. It is an American gas guzzling vehicle that does not care about MPG or the world. It also cost as much as a home. ",
+        "type": "SUV",
+        "link": "https://www.cadillac.com/suvs/escalade",
+        "image": "car_images/escalade_2024.png",
+        "price": 81895,
+        "luxury_scale": 8,
+        "saftey_rating": 4,
+        "MPG": 22
+    },
+
+    {
+        "car_name": "2024 GMC Sierra Denali Ultimate 4x4",
+        "description": "The ultimate truck that balances luxury features while also being a practical truck. ",
+        "type": "Truck",
+        "link": "https://www.gmc.com/trucks/sierra/1500/denali",
+        "image": "car_images/2024-sierra.png",
+        "price": 92900,
+        "luxury_scale": 9,
+        "saftey_rating": 5,
+        "MPG": 17
+    },
+
+    {
+        "car_name": "2024 Ford F-150 Tremor 4x4",
+        "description": "A great truck that balances both on and off road drivability. ",
+        "type": "Truck",
+        "link": "https://www.ford.com/trucks/f150/models/f150-tremor/",
+        "image": "car_images/2023-f-150-tremor.png",
+        "price": 60770,
+        "luxury_scale": 6,
+        "saftey_rating": 4,
+        "MPG": 25
+    },
+
+    {
+        "car_name": "2024 Toyota Tacoma SR5 4x4",
+        "description": "One of the most popular mid-sized truck that balances reliability and durability into one package. ",
+        "type": "Truck",
+        "link": "https://www.toyota.com/tacoma/",
+        "image": "car_images/toyota-tacoma.png",
+        "price": 40695,
+        "luxury_scale": 7,
+        "saftey_rating": 4,
+        "MPG": 24
+    },
+
+    {
+        "car_name": "2024 Ram 1500 Limited 4x4",
+        "description": "An alternative to other American trucks with a great balance of power and luxury. ",
+        "type": "Truck",
+        "link": "https://www.ramtrucks.com/ram-1500/specs.limited.html",
+        "image": "car_images/2024-ram-1500-limited.png",
+        "price": 85420,
+        "luxury_scale": 6,
+        "saftey_rating": 4,
+        "MPG": 20
+    }
+
+
+]

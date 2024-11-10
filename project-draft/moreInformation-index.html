@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Team CarQueen: Logan Dinh, Kyle Du, and James Parrot">
+    <meta name="description" content="sends user to text page here temporary but will get them more information such as a page for more information about the car">
+    <link rel="icon" href="page_images/Lightning_McQueen_logo.gif"> <!--changes the top globe to be our team logo-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"> <!-- port over bootstrap library-->
+    <link rel="stylesheet" href="css/projectStyle.css">
+    
+    <title>More Information Tab</title>
+</head>
+<body>
+  <main> 
+    <!-- used to represent the top of the page header used to block off the top -->
+    <header class="headerFlex">
+
+      <!-- nav bar in the top right -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-red">
+        <!-- drop down menu starts here -->
+        <a class="navbar-brand" href="#"></a>
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="page_images/menu-outline.svg" alt="Menu icon">
+        </a>    
+        <!-- After clicking on the image, this div below opens -->
+        <div class="navbar-collapse" id="navbarSupportedContent">
+          <!-- links for the dropdown menu -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="nav-link active text-dark fs-3 " aria-current="Home Page" href="#"> 
+                  <a class="text-dark fs-3" href="index.html">Home</a> &ensp; 
+                </a>
+                <a class="nav-link text-dark fs-2" aria-current="Upload Page" href="#"> 
+                  <a class="text-dark fs-3" href="upload-index.html">Upload </a> &ensp; 
+                </a>
+                <a class="nav-link active text-dark fs-2 " aria-current="Compare Page" href="#"> 
+                  <a class="text-dark fs-3" href="compare-index.html">Compare</a> 
+                </a>
+              </div>
+            </li>
+          </ul>
+          <!-- End of dropdown menu -->
+      
+          <!-- list items for when the drop down isnt active-->
+          <ul class="navbar-nav ml-auto smallHide">
+            <li class="nav-item">
+              <a class="nav-link active text-dark fs-3 " aria-current="Home Page" href="#"> <a
+                class="text-dark fs-3" href="index.html">Home</a> &ensp; </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fs-2" aria-current="Upload Page" href="#"> <a
+                class="text-dark fs-3" href="upload-index.html">Upload</a> &ensp; </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-dark fs-2 " aria-current="Compare Page" href="#"> <a
+                class="text-dark fs-3" href="compare-index.html">Compare</a> </a>
+            </li>
+          </ul>
+          <!-- End of list for when drop down isnt active -->
+        </div>
+      </nav>
+    
+      <!-- displays title next in the middle -->
+      <h1 class="pageTitle">
+        <p>CarQueen</p>
+      </h1>
+
+      <!-- displays the logo first in the left corner -->
+      <a href="index.html" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
+        <img src="page_images/Lightning_McQueen_logo.gif" alt="CarQueen Logo">
+      </a>
+    </header>
+
+    <p>This page when users press the more information page will load up the specific card that the user choose.</p>
+    <p>  will also contain specific information such as the MPG (fuel consumption), cost of vehicle (price), Luxury scale (0-10), etc. will be done by JSON sending to server</p>
+
+    <p>example of what it may look like. Likely the seinding the JSON will load the image also in order to show its content based on user.</p>
+
+    <!-- card 1-->
+   <!--beggining getting the toyota prius information-->
+   <div class="card" style="width: 18rem;" aria-label="Image of a economy vechicle Toyota Prius">
+    <img src="car_images/2024-toyota-prius.png" class="card-img-top increaseCarHeight" alt="an image of a Toyota Prius">
+    <div class="card-body">
+      <h1 class="card-title display-6">2024 Toyota Prius AWD Sedan</h1> <!--needs to be h5 for smaller size to fit in card-->
+      <p class="card-text text-black ">An affordable economy car meant for the average consumer wanting a fuel efficient vehicle to get them from point A to B.</p>
+      <button class="economyButtonColor rounded-pill">Economy</button>
+      <button class="badge badge-pill badge-dark rounded-pill m-2 w-4 p-2 ">
+        <a class="w-3 p-2 text-lg-center"  href="moreInformation-index.html" style="font-size:1.2em">More Info!</a>
+       </button>
+      <a target="_blank" href="https://www.toyota.com/prius/ " class="btn btn-primary ">Official Webpage</a>
+    </div>
+  </div>
+
+  </main>
+
+  <footer>
+    <footer class="footerFlexWrapper">©2024 CarQueen INFO 340</footer>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+  
+
+
+</html>
